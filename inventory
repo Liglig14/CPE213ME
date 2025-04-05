@@ -1,0 +1,7 @@
+[ControlNode1]
+ControlNode ansible_host=192.168.56.10 ansible_user=delapena ansible_python_interpreter=/usr/bin/python3.12
+[ManageNode1]
+ManageNode ansible_host=192.168.56.11 ansible_python_interpreter=/usr/bin/python3.12
+[CentOS]
+Centos ansible_host=192.168.56.13 ansible_python_interpreter=/usr/bin/python3.12
+
